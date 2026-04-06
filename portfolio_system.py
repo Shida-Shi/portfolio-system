@@ -8,7 +8,7 @@ from openpyxl.chart import BarChart, Reference
 from openpyxl.chart.series import DataPoint
 
 # 設定：ファイルパス
-BASE_DIR = Path(r"C:\Users\sae\Desktop\python_lesson")
+BASE_DIR = Path(r"DLしたファイルの置き場所")
 DATA_PATH = BASE_DIR / "蓄積データ.xlsx"
 MASTER_PATH = BASE_DIR / "portfolio - コピー.xlsx"
 TEMPLATE_PATH = BASE_DIR / "入力テンプレート.xlsx"
